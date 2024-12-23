@@ -1,0 +1,36 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "438fd9150e97040c3fa3389056345fd8"
+application_url = "https://syndication-inputs-incidence-margaret.trycloudflare.com"
+embedded = true
+name = "tuanpa20-store"
+handle = "tuanpa20-store"
+
+[webhooks]
+api_version = "2024-10"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/scopes_update" ]
+  uri = "/webhooks/app/scopes_update"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://syndication-inputs-incidence-margaret.trycloudflare.com/auth/callback",
+  "https://syndication-inputs-incidence-margaret.trycloudflare.com/auth/shopify/callback",
+  "https://syndication-inputs-incidence-margaret.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "tuanpa20-store.myshopify.com"
+automatically_update_urls_on_dev = true
