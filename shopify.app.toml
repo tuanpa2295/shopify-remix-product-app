@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "438fd9150e97040c3fa3389056345fd8"
-application_url = "https://syndication-inputs-incidence-margaret.trycloudflare.com"
+application_url = "https://rehab-kit-latina-houston.trycloudflare.com"
 embedded = true
 name = "tuanpa20-store"
 handle = "tuanpa20-store"
@@ -23,9 +23,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://syndication-inputs-incidence-margaret.trycloudflare.com/auth/callback",
-  "https://syndication-inputs-incidence-margaret.trycloudflare.com/auth/shopify/callback",
-  "https://syndication-inputs-incidence-margaret.trycloudflare.com/api/auth/callback"
+  "https://rehab-kit-latina-houston.trycloudflare.com/auth/callback",
+  "https://rehab-kit-latina-houston.trycloudflare.com/auth/shopify/callback",
+  "https://rehab-kit-latina-houston.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
