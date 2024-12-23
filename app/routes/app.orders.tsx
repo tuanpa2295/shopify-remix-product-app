@@ -64,7 +64,7 @@ const OrderTable = ({ orders }: { orders: Order[] }) => (
       { title: "Price" },
       { title: "Date Created" },
       { title: "Tags" },
-      { title: "" },
+      { title: "Action" },
     ]}
     selectable={false}
   >
